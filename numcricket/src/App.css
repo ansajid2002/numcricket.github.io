@@ -1,0 +1,266 @@
+body {
+  background:rgb(165, 243, 197);
+  margin:0;
+  font-family: monospace;
+
+  
+}
+
+
+
+/* homepage */
+.home-container {
+  background:rgb(173, 247, 177);
+  width:300px;
+  margin:1rem auto;
+  text-align:center;
+  padding:.5rem 2rem 2rem 2rem;
+  border-radius: 10px;
+  border:3px solid rgb(27, 204, 45);
+}
+.home-heading {
+  font-size:2rem;
+  margin-top:.3rem;
+  color:rgb(4, 95, 4);
+}
+.trans-btn {
+  width:140px;
+  height:30px;
+  border:2px solid rgb(27, 204, 45);
+  font-size: 1.5rem;
+  margin:.8rem auto;
+  padding:.2rem;
+  border-radius:10px;
+}
+.trans-btn:hover {
+  background-color:rgb(27, 204, 45);
+  border-color:rgb(4, 95, 4);
+  
+}
+.trans-text  {
+  color:rgb(4, 95, 4);
+  font-weight:bold;
+  text-decoration: none;
+
+}
+.trans-text:hover {
+  color:rgb(170, 252, 174);
+}
+
+
+/*********************** newgame ********************/
+.ng {
+  border:4px solid rgb(12, 119, 12);
+  border-radius:8px;
+  width:330px;
+  margin:1rem auto;
+  color:rgb(8, 65, 8);
+  background:rgb(173, 247, 177);
+}
+.ng-info {
+  
+  display:flex;
+  justify-content: space-between;
+  padding:.5rem .7rem 1rem .7rem;
+  font-size:1.7rem;
+  font-weight:bold;
+  color:black;
+  
+}
+
+
+.ng-heading {
+  font-size:1.5rem;
+  text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom:.5rem;
+  padding-top:.5rem;
+  margin-top:0;
+}
+.ng-main {
+  border-top:2px solid rgb(8, 65, 8);
+  border-bottom:2px solid rgb(8, 65, 8);
+  display:flex;
+  height:220px;
+  
+  
+}
+.ng-you {
+  border-right:1px solid rgb(8, 65, 8);
+  width:50%;
+}
+.rbutton {
+  background:rgb(2, 7, 3);
+  color:rgb(165, 252, 191);
+  
+  margin:.5rem;
+  padding:.2rem .65rem;
+  border-radius: 50%;
+  font-size:1.5rem;
+  
+}
+.rbutton:hover {
+  color:rgb(2, 7, 3);
+  background-color:rgb(165, 252, 191);
+}
+.ng-computer {
+  width:50%;
+  border-left:1px solid rgb(8, 65, 8);
+  text-align:center;
+  font-weight: bold;
+}
+.ng-out {
+  color:red;
+  font-size:3rem;
+  
+}
+
+.ng-choice {
+  font-size:1.4rem;
+  
+}
+.ng-choice-text {
+  margin-bottom:0.4rem;
+}
+
+.ng-choice-num {
+  font-size:3.5rem;
+  padding-top:0rem;
+  margin-top:0rem;
+  color:black;
+}
+.ng-footer {
+  display: flex;
+  justify-content: space-between;
+  padding:1rem;
+
+}
+.ng-restart {
+  width:110px;
+  padding:.4rem .8rem;
+  color:rgb(4, 95, 4);
+  border:2px solid rgb(4, 95, 4) ;
+  border-radius :5px;
+  background:rgb(173, 247, 177);
+  font-size:1.1rem;
+  font-weight:bold;
+  
+}
+.ng-restart:hover {
+  color:rgb(165, 252, 191);
+  background-color:rgb(27, 204, 45);
+}
+.ng-back {
+  padding:.4rem .5rem;
+  width:80px;  
+  border:2px solid rgb(4, 95, 4) ;
+  border-radius :5px;
+  background:rgb(173, 247, 177);
+  font-size:1.1rem;
+  font-weight:bold;
+}
+
+.ng-back:hover {
+  background-color:rgb(27, 204, 45);
+  
+}
+.ng-link {
+  color:rgb(4, 95, 4);
+  text-decoration: none;
+}
+.ng-link:hover {
+  color:rgb(165, 252, 191);
+}
+.ng-save {
+  background:rgb(179, 9, 9);
+  color:rgb(165, 252, 191);
+}
+/* ****************highscore ***********************/
+
+.borders {
+  border:2px solid black;
+  background:rgb(173, 247, 177);
+  width:290px;
+  text-align: center;
+  margin:1rem auto;
+  padding:.5rem 1rem;
+
+
+
+}
+.h-header {
+  padding: 0 1rem;
+  
+}
+
+.h-heading {
+  font-size: 2rem;
+  margin-top:0;
+  margin-bottom:1rem;
+  letter-spacing: .1rem;
+  
+}
+.close {
+  font-size:1.5rem;
+  font-weight:bold ;
+  text-decoration: none;
+  background:rgb(117, 241, 148);
+  border:1px solid transparent;
+  border-radius:30px;
+  padding:.3rem 1rem;
+  color:black;
+}
+.close:hover {
+  color:rgb(61, 58, 58);
+  background:rgb(165, 252, 191);
+  border:1px solid black;
+}
+.bb {
+  margin-top:.2rem;
+}
+
+
+.h-score {
+  border:1.5px solid rgb(4, 95, 4);
+  border-radius:10px;
+  font-size:1.5rem;
+  margin:.4rem 0;
+  padding-bottom: .2rem;
+  font-weight: bold;
+  letter-spacing: .06rem;
+  color:rgb(4, 95, 4);
+  background-color:rgb(52, 219, 52) ;
+  
+
+}
+.h-score:hover {
+  background:rgb(43, 207, 92);
+  
+}
+.h-foot {
+  margin-top:1rem;
+  display:flex;
+  justify-content: space-around;
+}
+.reset {
+  
+    font-size:1.2rem;
+    font-weight:bold ;
+    text-decoration: none;
+    background:rgb(117, 241, 148);
+    border:none;
+    border-radius:30px;
+    padding:.5rem .8rem;
+    color:black;
+    border:1px solid transparent;
+    
+}
+.reset:hover {
+  color:rgb(61, 58, 58);
+  background:rgb(165, 252, 191);
+  border:1px solid black;
+}
+.ss {
+  font-size:1.55rem;
+  color:black;
+}
